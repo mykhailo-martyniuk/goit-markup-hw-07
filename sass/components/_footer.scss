@@ -1,0 +1,29 @@
+.footer {
+  padding: 60px 0;
+  background-color: var(--background-color-grey_dark);
+
+  &__container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__el-wrap + &__el-wrap {
+    margin-left: 70px;
+  }
+
+  &__el-wrap:last-child {
+    flex-grow: 1;
+    margin-left: 93px;
+  }
+
+  &__call {
+    margin-bottom: 20px;
+    display: block;
+
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-white);
+  }
+}

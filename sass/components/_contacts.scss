@@ -1,0 +1,44 @@
+.contacts {
+  display: flex;
+  margin-left: auto;
+
+
+  &__icon {
+    fill: var(--text-color-grey);
+    margin-right: 10px;
+    transition: fill var(--animation-duration) var(--animation-function);
+  }
+
+  &__item + &__item {
+    margin-left: 50px;
+  }
+}
+
+.contacts__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0;
+
+  color: var(--text-color-grey);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition: color var(--animation-duration) var(--animation-function);
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--brand-color);
+  }
+
+  &:hover .contacts__icon,
+  &:focus .contacts__icon,
+  &:active .contacts__icon {
+    fill: var(--brand-color);
+  }
+}
+

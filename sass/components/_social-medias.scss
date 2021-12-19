@@ -1,0 +1,54 @@
+.social-medias {
+  display: flex;
+  justify-content: center;
+
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__icon {
+    fill: var(--color-white);
+    transition: fill var(--animation-duration) var(--animation-function);
+  }
+}
+
+.social-medias__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--color-social-media-background_grey);
+  transition: background-color var(--animation-duration)
+  var(--animation-function);
+
+  &:hover,
+  &:focus-within,
+  &:active {
+    background-color: var(--brand-color);
+  }
+}
+
+.social-medias__item + .social-medias__item {
+  margin-left: 10px;
+}
+
+.team__social-medias-item {
+  background-color: inherit;
+
+  &:hover .team__social-icon,
+  &:focus-within .team__social-icon,
+  &:active .team__social-icon {
+    fill: var(--color-white);
+  }
+}
+
+.team__social-icon {
+  fill: var(--color-icon-grey);
+}

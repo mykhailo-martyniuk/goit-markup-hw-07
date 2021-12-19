@@ -9,13 +9,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/modern-normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <div class="container header__container">
         <nav class="nav">
-          <a class="logo" href="#"><span class="logo_fword">Web</span>Studio</a>
+          <a class="logo" href="#">
+            <span class="logo__first-word">Web</span>Studio
+          </a>
           <ul class="nav__list">
             <li class="nav__list-item">
               <a class="nav__link nav__link--current" href="#"> Студия </a>
@@ -29,41 +31,41 @@
           </ul>
         </nav>
         <ul class="contacts">
-          <li class="contacts_item">
+          <li class="contacts__item">
             <a class="contacts__link" href="mailto:info@devstudio.com">
-                <svg
-                  class="contacts__icon contacts__icon--email"
-                  width="16px"
-                  height="12px"
-                >
-                  <use href="images/icons.svg#icon-email"></use>
-                </svg>
-                info@devstudio.com
+              <svg
+                class="contacts__icon contacts__icon--email"
+                width="16px"
+                height="12px"
+              >
+                <use href="images/icons.svg#icon-email"></use>
+              </svg>
+              info@devstudio.com
             </a>
           </li>
-          <li class="contacts_item">
+          <li class="contacts__item">
             <a class="contacts__link" href="tel:+380961111111">
-                <svg
-                  class="contacts__icon contacts__icon--phone"
-                  width="10px"
-                  height="16px"
-                >
-                  <use href="images/icons.svg#icon-smartphone"></use>
-                </svg>
-                +38 096 111 11 11
+              <svg
+                class="contacts__icon contacts__icon--phone"
+                width="10px"
+                height="16px"
+              >
+                <use href="images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
             </a>
           </li>
         </ul>
       </div>
     </header>
     <main class="main">
-      <section class="section section--dark section-h1">
+      <section class="section section--dark section--h1">
         <div class="container">
-          <h1 class="section__title section__title-bigger">
+          <h1 class="section__title section__title--bigger">
             Эфективные решения для вашего бизнеса
           </h1>
           <button
-            class="button button__order button--blue"
+            class="button button--order button--blue"
             type="button"
             data-modal-open
           >
@@ -71,7 +73,7 @@
           </button>
         </div>
       </section>
-      <section class="section section--bottom-p-zero">
+      <section class="section section--bottom">
         <div class="container">
           <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="advantages">
@@ -169,7 +171,7 @@
           <ul class="team">
             <li class="team__item">
               <img
-                class="team_img"
+                class="team__img"
                 src="images/person1.jpg"
                 alt="мужчина: в очках, короткая стрижка, борода, темные волосы, бордовая рубашка"
               />
@@ -226,7 +228,7 @@
             </li>
             <li class="team__item">
               <img
-                class="team_img"
+                class="team__img"
                 src="images/person2.jpg"
                 alt="женщина: блондинка, в очках, в черном пиджаке"
               />
@@ -283,7 +285,7 @@
             </li>
             <li class="team__item">
               <img
-                class="team_img"
+                class="team__img"
                 src="images/person3.jpg"
                 alt="мужчина: короткая стрижка, длинная щетина, темные волосы, белая рубашка"
               />
@@ -340,7 +342,7 @@
             </li>
             <li class="team__item">
               <img
-                class="team_img"
+                class="team__img"
                 src="images/person4.jpg"
                 alt="мужчина: короткая стрижка, борода, темные волосы, черная футболка"
               />
@@ -476,7 +478,7 @@
       <div class="container footer__container">
         <div class="footer__el-wrap">
           <a class="logo logo--white" href="#">
-            <span class="logo_fword">Web</span> Studio
+            <span class="logo__first-word">Web</span> Studio
           </a>
           <address class="address">
             <ul class="address__list">
@@ -547,7 +549,7 @@
                 placeholder="E-mail"
               />
               <button
-                class="button button__order button--blue form-footer__button"
+                class="button button--order button--blue form-footer__button"
                 type="submit"
               >
                 Подписаться
@@ -617,7 +619,7 @@
             <a class="form-modal__link" href="">Условия договора</a>
           </label>
           <button
-            class="button button__order button--blue form-modal__button-submit"
+            class="button button--order button--blue form-modal__button-submit"
             type="submit"
           >
             Отправить

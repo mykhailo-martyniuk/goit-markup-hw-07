@@ -1,0 +1,31 @@
+:root {
+  --brand-color: #2196f3;
+  --brand-color-opacity: rgba(33, 150, 243, 0.9);
+  --background-color-grey_dark: #2f303a;
+  --background-color-grey_light: #f5f4fa;
+  --text-color-black: #212121;
+  --icon-black-clor: #000;
+  --text-color-grey: #757575;
+  --backdrop-background-color: rgba(0, 0, 0, 0.2);
+  --color-white: #fff;
+  --color-white-opacity: rgba(255, 255, 255, 0.6);
+  --border-color: #eeeeee;
+  --color-icon-grey: #afb1b8;
+  --input-color-grey: rgba(33, 33, 33, 0.2);
+  --background-blackout: rgba(47, 48, 58, 0.4);
+  --background-doings: rgba(47, 48, 58, 0.8);
+  --color-social-media-background_grey: #44454e;
+  --section-padding: 94px 0;
+  --box-shadow-team: 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  --modal-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+  0 2px 1px rgba(0, 0, 0, 0.2);
+  --border-projects-width: 1px;
+  --border-projects_item: var(--border-projects-width) solid var(--border-color);
+  --button-hover-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+  0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  --animation-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-duration: 250ms;
+}
+
+$font: "Roboto", sans-serif;

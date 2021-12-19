@@ -1,0 +1,37 @@
+.team {
+  display: flex;
+}
+.team__item {
+  max-width: 270px;
+  box-shadow: var(--box-shadow-team);
+  border-radius: 0 0 4px 4px;
+}
+.team__item:not(:last-child) {
+  margin-right: 30px;
+}
+.team__img {
+  display: block;
+  max-width: 100%;
+}
+.team__bottom-container {
+  padding: 30px 0;
+  background-color: var(--color-white);
+}
+.team__title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team__desc {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color-grey);
+}
+
+/*# sourceMappingURL=team.css.map */
